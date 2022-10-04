@@ -1,0 +1,117 @@
+/*
+Inscription
+*/
+
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+  
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    /*background: linear-gradient(115deg, #13E8C2 10%, #96AEAA 90%);*/ 
+}
+
+  
+.container2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 80px;
+  
+}
+  
+.container2{
+    background: #fff;
+    height: 970px;
+    width: 410px;
+    padding: 30px;
+    box-shadow: 0 0  8px rgba(0,0,0,0.1);
+    top: 50%;
+    padding-top: 30px;
+}
+  
+  
+.container2 .text{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+
+  
+.container2 form{
+    margin-top:  40px;
+  
+}
+  
+
+.container2 form .data{
+    height: 45px;
+    width: 100%;
+    margin: 40px 0;
+}
+  
+
+form .data input{
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 17px;
+    border: 1px solid lightgrey;
+}
+  
+
+form .btn{
+    margin: 30px 0;
+    height: 45px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+
+ form .btn .inner{
+  
+    height: 100%;
+    width: 300%;
+    position: absolute;
+    left: -100%;
+    z-index: -1;
+    background: linear-gradient(115deg, #13E8C2 , #dee2e2 ,#13E8C2 ,#dee2e2 ); 
+}
+  
+
+form .btn button{
+  
+    height: 100%;
+    width: 100%;
+    background : none;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+image-logo{
+    padding-top: 20px;
+}
+
+@media screen and (max-width : 640px){
+
+    header{
+        margin-top: 20px;
+        text-align: left;
+    }
+    nav .logo{
+        margin-bottom: 10px;
+    }

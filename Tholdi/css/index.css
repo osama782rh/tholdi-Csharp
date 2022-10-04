@@ -1,0 +1,241 @@
+::before, ::after {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+Body 
+*/
+html, body {
+    height: 100%;
+    margin: 0; padding: 0;
+    display : table;
+    width: 100%;
+}
+
+
+/*
+Header
+*/
+
+.box{
+
+    font-family: "Montserrat", sans-serif;
+}
+
+.header {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 70px;
+    line-height: 70px;
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 999;
+
+}
+
+.header .header-logo {
+    color: white;
+    float: left;
+    margin-left: 16px;
+    text-decoration: none;
+
+}
+
+.header  .header-nav {
+   float: left;
+   margin-left: 30px;
+   font-family: "Montserrat", sans-serif;
+   justify-content: space-between;
+}
+
+.header .header-nav a{
+    margin-right: 30px;
+    color: white;
+    text-decoration: none;
+    
+}   
+
+.header .header-nav a:hover {
+    color: darkgrey;
+}
+
+.button {
+
+    cursor: pointer;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    float: right;
+    text-decoration: none;
+    color: white;
+    line-height: 70px;
+    
+}
+
+.button:hover {
+
+    color: darkgrey;
+}
+
+
+/*
+Banner
+*/
+.banner {
+    
+    margin-top: -70px;
+    margin-right: -10px;
+}
+
+
+.banner .banner-image {
+    position: relative;
+}
+
+
+.banner .banner-container{
+
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 30%;
+}
+
+
+.banner .banner-container h1,
+.banner .banner-container h2 {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/*
+Section 
+*/
+.section1 {
+
+   
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 50px;
+  
+ 
+
+}
+
+.btn-p{
+
+    margin-top: 20px;
+    
+}
+
+.section3{
+
+    margin-bottom: 50px;
+}
+
+
+/*
+Footer
+*/
+footer {
+
+    background:rgb(194, 227, 240);
+    
+    bottom:0;
+    
+    width:100%;
+    
+    padding-top:50px;
+    
+    height:50px;
+
+    font-family: "Montserrat",sans-serif;
+
+    margin-top: 50px;
+
+    display : table-row;
+    height: 100px; /* à titre d'exemple */
+}
+
+
+.footer-container{
+
+    text-align: center;
+    color: rgb(56, 54, 54);
+    margin-top: 50px;
+}
+
+
+.footer-container a{
+
+    text-decoration: none;
+    color: white;
+}
+
+.footer-container a:hover{
+
+    color: darkgrey;
+}
+/*
+Consultation 
+*/
+
+
+.table-container{
+    border-collapse: collapse;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+  
+
+td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+@media screen and (max-width : 640px){
+
+    header{
+        margin-top: 20px;
+        text-align: left;
+    }
+    nav .logo{
+        margin-bottom: 10px;
+    }
+
+.cartes{
+    margin-top: 80px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carte{
+    max-width: 600px;
+    border: 3px solid black;
+    margin-bottom: 40px;
+    padding: 20px;
+    
+}
+
+.cartes .carte h1{
+    margin-top: 0px;
+    text-transform: uppercase;
+}
+
+.cartes .carte a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.cartes .carte a:hover{
+    text-decoration: underline;
+}
